@@ -363,3 +363,7 @@ textarea{
     /* text-transform: uppercase; */
     
 }
+footer{
+    background-color: black;
+    margin-top: 20px;
+}
