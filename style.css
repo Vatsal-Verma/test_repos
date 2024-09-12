@@ -305,3 +305,61 @@ i:hover{
    background-image: url(spark.gif);
    z-index: -1;
  }
+.sub{
+    color: white;
+    padding: 10px;
+
+}
+.sub label , textarea {
+    padding: 10px;
+}
+
+.middle-text{
+    font-size:  100px;
+    background-image:url(spark.gif);
+    background-size: 100px;
+    display: flex;
+  justify-content: center;
+   background-clip: text;
+   -webkit-background-clip: text;
+   color: transparent;
+   animation: animate 30s alternate infinite;
+   font-weight: 1000;
+   line-height: 100px;
+   text-align: center;
+   
+
+  -webkit-text-stroke: 1px #ccc ;
+  }
+  /* .lowertext{
+    padding-top: 10px;
+    background-image:url(red1.gif);
+    background-size: 200% auto;
+   background-clip: text;
+   -webkit-background-clip: text;
+   color: transparent;
+   animation: animate 30s alternate infinite;
+   font-weight: 600;
+   font-size: 40px;
+  margin-left: 120px;
+  -webkit-text-stroke: 0.5px #ccc ;
+  
+  } */
+::placeholder{
+    text-align: center;
+    font-weight: 600px;
+}
+input{
+    width: 80%;
+}
+textarea{
+    width: 80%;
+}
+.sub button{
+
+    background-color: black;
+    color: cyan;
+    padding: 10px 15px;
+    /* text-transform: uppercase; */
+    
+}
