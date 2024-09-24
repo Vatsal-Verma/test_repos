@@ -387,3 +387,29 @@ footer{
 .resume-button:hover {
     background-color: #1b1b1b; /* Darker shade for hover effect */
 }
+.tech{
+    /* background-image: url(); */
+    
+}
+.edu{
+    margin-top: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    /* background-color: rgb(53, 53, 53); */
+    border-radius: 10px;
+    box-shadow: 0.5px 0.5px 1px cyan;
+    
+}   
+
+.edu h5{
+    font-size: 15px;
+    color: white;
+    line-height: 20px;
+
+}
+/* .pos{
+    background-image: url(spark.gif);
+} */
+/* .edu{
+    backdrop-filter: blur(7px);
+} */
